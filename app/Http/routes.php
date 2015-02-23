@@ -19,3 +19,16 @@ Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
 ]);
+
+
+/**
+ *
+ */
+Route::get('test', function()
+{
+
+	$can = Guardian::can();
+
+	dd(app('Artisans\Guardian\Repositories\RoleRepository'));
+
+});

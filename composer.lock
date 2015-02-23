@@ -12,21 +12,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPArtisans/guardian.git",
-                "reference": "04679449a811c53da83512a81d6277c1e11616a5"
+                "reference": "f5d851e483e544c2655ff75cbcc8b7a130f1a9ef"
             },
             "require": {
+                "illuminate/contracts": "5.0.x",
+                "illuminate/database": "5.0.x",
                 "illuminate/support": "5.0.*",
                 "php": ">=5.4.0"
             },
             "require-dev": {
+                "phpspec/phpspec": "~2.0",
                 "phpunit/phpunit": "4.*"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "develop"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Artisans\\Guardian\\": "src/Guardian/"
@@ -54,7 +52,7 @@
                 }
             ],
             "description": "ACL",
-            "time": "2015-02-22 23:45:22"
+            "time": "2015-02-23 02:30:25"
         },
         {
             "name": "classpreloader/classpreloader",
