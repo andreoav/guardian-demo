@@ -148,7 +148,7 @@ return [
 		/*
 		 * Package Service Providers
 		 */
-		'Artisans\Guardian\ServiceProvider',
+		'Artisans\Guardian\Providers\GuardianServiceProvider',
 
 	],
 
