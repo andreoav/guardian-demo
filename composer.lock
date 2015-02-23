@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "297a1b3438a2ef427f14d4345ea06cad",
+    "hash": "5cf8d06898dd0690b0f2fde12853e570",
     "packages": [
         {
             "name": "artisans/guardian",
@@ -12,7 +12,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPArtisans/guardian.git",
-                "reference": "f5d851e483e544c2655ff75cbcc8b7a130f1a9ef"
+                "reference": "9d9d573a0db996b743b780f5168e1538fa722584"
             },
             "require": {
                 "illuminate/contracts": "5.0.x",
@@ -52,7 +52,7 @@
                 }
             ],
             "description": "ACL",
-            "time": "2015-02-23 02:30:25"
+            "time": "2015-02-23 14:03:14"
         },
         {
             "name": "classpreloader/classpreloader",
