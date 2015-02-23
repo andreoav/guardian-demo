@@ -27,8 +27,6 @@ Route::controllers([
 Route::get('test', function()
 {
 
-	$can = Guardian::can();
-
-	dd(app('Artisans\Guardian\Repositories\RoleRepository'));
+	return Auth::user()->roles;
 
 });

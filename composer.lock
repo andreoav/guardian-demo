@@ -12,7 +12,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPArtisans/guardian.git",
-                "reference": "9d9d573a0db996b743b780f5168e1538fa722584"
+                "reference": "9ad875c7c52ebbf228667b4cbf8ccf3ddf6b7ccc"
             },
             "require": {
                 "illuminate/contracts": "5.0.x",
@@ -52,7 +52,7 @@
                 }
             ],
             "description": "ACL",
-            "time": "2015-02-23 14:03:14"
+            "time": "2015-02-23 17:42:24"
         },
         {
             "name": "classpreloader/classpreloader",
